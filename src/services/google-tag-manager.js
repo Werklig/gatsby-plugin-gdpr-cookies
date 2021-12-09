@@ -3,7 +3,7 @@ const {
   getCookie
 } = require('../helper')
 
-TODO: tag manager does track automatically when adding it to the dom
+// TODO: tag manager does track automatically when adding it to the dom
 
 exports.addGoogleTagManager = ({ trackingId, dataLayerName }, environmentParamStr) => {
   return new Promise((resolve, reject) => {
